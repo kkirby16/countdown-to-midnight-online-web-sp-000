@@ -3,6 +3,7 @@
 def countdown(integer)
   while integer > 0 do 
     "#{integer} SECOND(S)!"
+    integer -= 1 
   
 end
 
